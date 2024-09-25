@@ -1,10 +1,11 @@
 function ExpenseItem()
 {
     return(
-        <ul>
-            <li>pen-10</li>
-            <li>book-100</li>
-        </ul>
+        <ol>
+            <li> Food - $5</li>
+          <li> Petrol - $20</li>
+          <li>Movie - $10</li>
+        </ol>
     )
 }
 
