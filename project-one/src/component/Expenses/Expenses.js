@@ -3,7 +3,7 @@
 import ExpenseItem from './ExpenseItem';
 import './Expenses.css';
 
-import Card from './Card';
+import Card from '../UI/Card';
 
 function Expenses(props) {
     console.log(props)
@@ -13,7 +13,7 @@ function Expenses(props) {
         <ExpenseItem
           key={expense.id}
           title={expense.title}
-          amount={expense.amount}
+          price={expense.price}
           date={expense.date}
         > </ExpenseItem>
       ))}
